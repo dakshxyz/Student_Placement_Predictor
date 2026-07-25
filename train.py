@@ -89,6 +89,5 @@ print(classification_report(y, y_pred))
 cm = confusion_matrix(y, y_pred)
 print(cm)
 
-
 best_pipe.fit(X, y)
 joblib.dump(best_pipe, 'placement_predictor.pkl')
