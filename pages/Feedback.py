@@ -1,3 +1,10 @@
+import sys
+from pathlib import Path
+
+# Add root project directory to sys.path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
+
 import streamlit as st
 from db import update_actual_placement
 
