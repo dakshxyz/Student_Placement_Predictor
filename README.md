@@ -130,7 +130,7 @@ The model uses:
 
 * Polynomial Features
 * StandardScaler
-* Logistic Regression
+* Gradient Boosting
 * Cross Validation
 
 The complete preprocessing and model pipeline is serialized using Joblib.
