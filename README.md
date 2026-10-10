@@ -6,7 +6,7 @@ This project is an end-to-end Machine Learning application that predicts whether
 
 The system includes:
 
-* Machine Learning model training using Logistic Regression
+* Machine Learning model training using Gradient Boosting
 * Polynomial Feature Engineering
 * Data Scaling and Preprocessing Pipeline
 * Streamlit Web Application
